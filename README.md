@@ -1,0 +1,2 @@
+# msc
+Magic Script Compiler
