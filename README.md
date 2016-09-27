@@ -1,2 +1,1 @@
-# msc
-Magic Script Compiler
+# Magic Script Compiler
