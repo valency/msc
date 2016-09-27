@@ -1,0 +1,12 @@
+iframe {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#script-content {
+    height: 381px;
+}

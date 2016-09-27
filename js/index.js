@@ -1,6 +1,7 @@
+$(document).ready(function () {
+    init_editor("script-content", "sh", false);
+});
+
 function msc() {
-    $.get("/msc/core/msc.php", function (data) {
-        data = eval("(" + data + ")");
-        alert(data["status"]);
-    });
+    $("#script-result").attr("src", "core/exec.php?f=msc.sh");
 }
