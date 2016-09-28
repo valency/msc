@@ -1,13 +1,13 @@
 <?php
 ob_implicit_flush(true);
 ob_end_flush();
-$cmd = "setsid bash " . $_GET["f"];
+$cmd = "setsid bash " . $_GET["f"] . " " . $_GET["s"];
 $spec = array(
     0 => array("pipe", "r"),
     1 => array("pipe", "w"),
     2 => array("pipe", "w")
 );
-$process = proc_open($cmd, $spec, $pipes, realpath('../lib/msc/'), array());
+$process = proc_open($cmd, $spec, $pipes, realpath('../scripts/'), array());
 register_shutdown_function('kill', $process);
 $status = proc_get_status($process);
 echo "<code style='color:grey;'>PID: " . $status['pid'] . "</code>";

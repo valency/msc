@@ -1,6 +1,7 @@
 iframe {
     width: 100%;
-    border: 1px solid black;
+    height: 100px;
+    border: none;
 }
 
 .container {
@@ -9,4 +10,8 @@ iframe {
 
 #script-content {
     height: 381px;
+}
+
+#btn-set a.btn {
+    margin-left: 5px;
 }

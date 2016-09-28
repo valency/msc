@@ -8,16 +8,24 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
+            <div class="form-group">
+                <p class="text-bold text-primary">Magic Script Compiler</p>
+                <p id="btn-set">
+                    <span>Write your shell script below and compile it into binary!</span>
+                    <a id="btn-download" class="btn btn-success btn-xs pull-right" href="javascript:void(0)">Download</a>
+                    <a class="btn btn-primary btn-xs pull-right" href="javascript:msc()">Compile</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-12">
             <div class="form-group">
                 <textarea class="form-control" rows="5" id="script-content"></textarea>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="form-group">
-                <p>Magic Script Compiler</p>
-                <p><a class="btn btn-primary btn-xs" href='javascript:msc()'>Click Me!</a></p>
-                <iframe id="script-result" src="javascript:void(0)" onload='resize_frame(this);' style="min-height:300px;"></iframe>
+                <iframe id="script-result" src="javascript:void(0)"></iframe>
             </div>
         </div>
     </div>
