@@ -25,19 +25,11 @@ function random_color() {
 function init_editor(selector, mode, readonly) {
     var editor = ace.edit(selector);
     editor.setOptions({
-        mode: "ace/mode/" + mode
+        mode: "ace/mode/" + mode,
+        readOnly: readonly,
+        minLines: 30,
+        maxLines: 30
     });
-    if (readonly) {
-        editor.setOptions({
-            readOnly: true,
-            maxLines: 20
-        });
-    } else {
-        editor.setOptions({
-            minLines: 20,
-            maxLines: 20
-        });
-    }
     return editor;
 }
 
