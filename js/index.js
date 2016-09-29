@@ -60,7 +60,7 @@ function msc() {
             $("#btn-download").removeClass("disabled");
             $("#btn-download").attr("href", "scripts/" + script_session + ".sh");
             bootbox.hideAll();
-            bootbox.alert("<p>Compiling complete!<br/>You can not click the download button to download the binary file.</p>");
+            bootbox.alert("<p>Compiling complete!<br/>You can now click the download button to download the binary file.</p>");
         });
     });
 }
