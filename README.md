@@ -1,6 +1,2 @@
 # Magic Script Compiler
-Missing features:
-- Library view
-- File management
-- Test run
-- About / help
+Write your shell script below and compile it into binary!

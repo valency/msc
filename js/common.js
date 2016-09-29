@@ -40,3 +40,11 @@ function init_editor(selector, mode, readonly) {
     }
     return editor;
 }
+
+function loading(message) {
+    if (message == "" || message == null || message == undefined) message = "Loading...";
+    bootbox.dialog({
+        message: "<span><i class='fa fa-spin fa-spinner'></i> " + message + "</span>",
+        closeButton: false
+    });
+}

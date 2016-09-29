@@ -10,7 +10,7 @@ $spec = array(
 $process = proc_open($cmd, $spec, $pipes, realpath('../scripts/'), array());
 register_shutdown_function('kill', $process);
 $status = proc_get_status($process);
-echo "<code style='color:grey;'>PID: " . $status['pid'] . "</code>";
+echo "<p><code style='color:grey;'>PID: " . $status['pid'] . "</code></p>";
 echo "<pre>";
 if (is_resource($process)) {
     if (!stream_set_blocking($pipes[2], 0)) die("Could not set timeout");
