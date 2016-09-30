@@ -1,1 +1,1 @@
-<small class="text-muted pull-right">&copy; 2016 <a href='http://deepera.com' target="_blank">Deepera Co., Ltd.</a></small>
+<span class="text-muted pull-right footer">&copy; 2016 <a href='http://deepera.com' target="_blank">云数信息科技（深圳）有限公司</a> | 粤 ICP 备 16016590 号 | <a href='http://deepera.com' target="_blank">使用条款</a> | <a href='http://deepera.com' target="_blank">隐私条款</a></span>

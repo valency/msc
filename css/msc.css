@@ -12,6 +12,14 @@ table a:not(.btn), .table a:not(.btn) {
     text-decoration: none;
 }
 
+.logo {
+    height: 18px;
+}
+
+.footer {
+    font-size: 12px;
+}
+
 .text-bold {
     font-weight: bold;
 }

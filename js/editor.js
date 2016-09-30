@@ -27,10 +27,7 @@ $(document).ready(function () {
             });
         });
     }
-    $.get("core/msc.php?f=../lib/msc/msc", function (data) {
-        data = eval("(" + data + ")");
-        $("#script-version").html("v" + data["VERSION"] + " / " + "<a href='javascript:change_session()'>" + script_session + "</a>");
-    });
+    $("#script-version").html("<a href='javascript:change_session()'>" + script_session + "</a>");
 });
 
 function msc() {
