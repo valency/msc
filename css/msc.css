@@ -1,3 +1,7 @@
+body {
+    padding: 50px 0;
+}
+
 table {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -17,7 +21,6 @@ table a:not(.btn), .table a:not(.btn) {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 50px 0;
 }
 
 .list-group.list-group-root {

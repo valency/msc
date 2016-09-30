@@ -6,14 +6,12 @@
     <script src="js/about.js"></script>
 </head>
 <body>
-<div class="vertical-center">
-    <div class="container">
-        <?php include_once "header.php"; ?>
-        <div class="row">
-            <div class="col-md-12">
-                <p id="about-panel"></p>
-                <?php include_once "footer.php"; ?>
-            </div>
+<div class="container">
+    <?php include_once "header.php"; ?>
+    <div class="row">
+        <div class="col-md-12">
+            <p id="about-panel"></p>
+            <?php include_once "footer.php"; ?>
         </div>
     </div>
 </div>
